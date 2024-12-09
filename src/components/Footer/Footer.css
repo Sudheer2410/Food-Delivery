@@ -35,9 +35,14 @@
 }
 
 .footer-social-icons img{
-    width: 40px;
+    width: 20px;
     margin-right: 15px;
 }
+.footer-content-left img {
+    width: 150px; /* Adjust the value to reduce the logo size */
+    height: auto; /* Maintain aspect ratio */
+} 
+
 
 .footer hr{
     width: 100%;

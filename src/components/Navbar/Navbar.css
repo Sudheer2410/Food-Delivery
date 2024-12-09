@@ -6,7 +6,8 @@
 }
 
 .navbar .logo{
-    width: 150px;
+    width: 300px;
+    margin-top: -60px;
 }
 
 .navbar-menu{
@@ -15,12 +16,14 @@
     gap: 20px;
     color: #49557e;
     font-size: 18px;
+    margin-top: -60px;
 }
 
 .navbar-right{
     display: flex;
     align-items: center;
     gap: 40px;
+    margin-top: -60px;
 }
 
 .navbar button{
@@ -32,6 +35,7 @@
     border-radius: 50px;
     cursor: pointer;
     transition: 0.3s;
+
 }
 
 .navbar button:hover{
@@ -49,6 +53,7 @@
 
 .navbar-search-icon{
     position: relative;
+    
 }
 
 .navbar-search-icon .dot{
@@ -59,12 +64,13 @@
     border-radius: 5px;
     top: -8px;
     right: -8px;
+    margin-top: -60px;
     
 }
 
 @media (max-width: 1050px) {
     .navbar-logo{
-        width: 140px;
+        width: 250px;
     }
     .navbar-menu{
         gap: 20px;
@@ -83,7 +89,7 @@
 
 @media (max-width: 900px) {
     .navbar-logo{
-        width: 120px;
+        width: 200px;
     }
     .navbar-menu{
         gap: 15px;
